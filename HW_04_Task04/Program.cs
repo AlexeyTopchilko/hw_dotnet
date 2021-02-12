@@ -24,13 +24,13 @@ namespace HW_04_Task04
 
             Console.WriteLine("Please input + or -");
             string @operator = Console.ReadLine();
-            while (@operator[0] != '-' && @operator[0] != '+')
+            while (@operator != "-" && @operator != "+")
             {
                 Console.WriteLine("Wrong operator\nPlease input + or -");
                 @operator = Console.ReadLine();
             }
 
-            if (@operator[0] == '+')
+            if (@operator == "+")
             {
                 Plus(var1, var2);
             }
