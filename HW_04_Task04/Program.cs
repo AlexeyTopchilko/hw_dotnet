@@ -7,19 +7,19 @@ namespace HW_04_Task04
         static void Main(string[] args)
         {
             Console.WriteLine("Please input first number");
-            bool chekVar1 = Int32.TryParse(Console.ReadLine(), out int var1);
-            while (chekVar1 == false)
+            bool chek = Int32.TryParse(Console.ReadLine(), out int var1);
+            while (chek == false)
             {
                 Console.WriteLine("Thats not a number\nPlease input a NUMBER");
-                chekVar1 = Int32.TryParse(Console.ReadLine(), out var1);
+                chek = Int32.TryParse(Console.ReadLine(), out var1);
             }
 
             Console.WriteLine("Please input second number");
-            bool chekVar2 = Int32.TryParse(Console.ReadLine(), out int var2);
-            while (chekVar2 == false)
+            chek = Int32.TryParse(Console.ReadLine(), out int var2);
+            while (chek == false)
             {
                 Console.WriteLine("Thats not a number\nPlease input a NUMBER");
-                chekVar2 = Int32.TryParse(Console.ReadLine(), out var2);
+                chek = Int32.TryParse(Console.ReadLine(), out var2);
             }
 
             Console.WriteLine("Please input + or -");
@@ -39,6 +39,7 @@ namespace HW_04_Task04
                 Minus(var1, var2);
             }
         }
+
         static void Plus(int var1, int var2)
         {
             Console.WriteLine($"Please input a result of {var1}+{var2}=");
@@ -65,6 +66,7 @@ namespace HW_04_Task04
             }
 
         }
+
         static void Minus(int var1, int var2)
         {
             Console.WriteLine($"Please input a result of {var1}-{var2}=");
