@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace HW_05_Task1
+namespace HW_05_Task2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            SumTo.SumToNum(GetNum.GetNumber());
+            TriangleOfNumbers.TriangleOfNumber(GetNum.GetNumber());
         }
     }
 }
