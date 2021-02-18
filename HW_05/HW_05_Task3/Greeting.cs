@@ -14,16 +14,16 @@ namespace HW_05_Task3
                 case 9 :
                 case 10:
                 case 11:
-                case 12:
                 Console.WriteLine("Good Morning!");
                     break;
 
+                case 12:
                 case 13:
                 case 14:
-                case 15:
                 Console.WriteLine("Good Day!");
                     break;
 
+                case 15:
                 case 16:
                 case 17:
                 case 18:
@@ -35,7 +35,7 @@ namespace HW_05_Task3
                     break;
 
                 default:
-                        Console.WriteLine("Somthing going wrong!");
+                        Console.WriteLine("Good night!");
                     break;
         }
     }
