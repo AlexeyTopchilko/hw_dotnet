@@ -22,12 +22,9 @@ namespace HW._06.Task1
         {
             int[] randomMass = new int[size];
             Random num = new Random();
-            Console.WriteLine("\nRandom massiv is :");
             for(int i = 0;i < size;i++)
-            {
                 randomMass[i] = num.Next();
-                Console.Write(randomMass[i]+" ");
-            }
+
             return randomMass;
         }
 
@@ -44,24 +41,22 @@ namespace HW._06.Task1
                     chek = Int32.TryParse(Console.ReadLine(), out usersMass[i]);
                 }
             }
-            Console.WriteLine("You'r massiv is :");
-            foreach (int item in usersMass)
-            {
-                Console.Write(item+" ");
-            }
             return usersMass;
         }
 
-        public static int[] SummMass(int size, int[] randomMass, int[] usersMass)
+        public static int[] SummMass(int[] randomMass, int[] usersMass)
         {
-            int[] summMass = new int[size];
-            Console.WriteLine("\nThe result of summing two massiv's is :");
-            for(int i = 0;i < size;i++)
+            int[] summMass;
+            if (randomMass.Length == usersMass.Length)
             {
-                summMass[i] = randomMass[i] + usersMass[i];
-                Console.Write(summMass[i]+" ");
+                int size = randomMass.Length;
+                summMass = new int[size];
+                for (int i = 0; i < size; i++)
+                    summMass[i] = randomMass[i] + usersMass[i];
+                return summMass;
             }
-            return summMass;
+            else 
+                return null;
         }
     }
 }
