@@ -10,7 +10,7 @@ namespace HW._06.Task1
         {
          Console.WriteLine("Please input size of array");
             bool chek = Int32.TryParse(Console.ReadLine(), out int size);
-            while (chek == false || size <= 0 )
+            while (!chek || size <= 0 )
             {
                 Console.WriteLine("Please input correct size of array");
                 chek = Int32.TryParse(Console.ReadLine(), out size);
@@ -35,7 +35,7 @@ namespace HW._06.Task1
             {
                 Console.WriteLine("\nPlease input a number :");
                 bool chek = Int32.TryParse(Console.ReadLine(), out usersMass[i]);
-                while (chek == false)
+                while (!chek)
                 {
                     Console.WriteLine("Wrong number\nPlease input a number :");
                     chek = Int32.TryParse(Console.ReadLine(), out usersMass[i]);
