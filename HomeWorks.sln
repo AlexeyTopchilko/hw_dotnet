@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW.07.Task1", "HW.07.Task1\HW.07.Task1.csproj", "{8ACC01F2-9F69-4F09-B93A-9473C24B5695}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.07.Task1", "HW.07.Task1\HW.07.Task1.csproj", "{8ACC01F2-9F69-4F09-B93A-9473C24B5695}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW.07.Task2", "HW.07.Task2\HW.07.Task2.csproj", "{D63DACF2-9587-4B9B-8BBA-AB97461FC1FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.07.Task2", "HW.07.Task2\HW.07.Task2.csproj", "{D63DACF2-9587-4B9B-8BBA-AB97461FC1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW.07.Task3", "HW.07.Task3\HW.07.Task3.csproj", "{2E0A5A9C-31A2-45DD-B57A-CD2C8A8DDB7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D63DACF2-9587-4B9B-8BBA-AB97461FC1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D63DACF2-9587-4B9B-8BBA-AB97461FC1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D63DACF2-9587-4B9B-8BBA-AB97461FC1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E0A5A9C-31A2-45DD-B57A-CD2C8A8DDB7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0A5A9C-31A2-45DD-B57A-CD2C8A8DDB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0A5A9C-31A2-45DD-B57A-CD2C8A8DDB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0A5A9C-31A2-45DD-B57A-CD2C8A8DDB7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
